@@ -1,2 +1,74 @@
-* {
-  color: blue; }
+.module {
+  position: absolute !important;
+  top: 0px !important;
+  height: 100% !important;
+  max-height: 2160px !important;
+  max-width: 3840px !important;
+  top: 0px !important; }
+
+.mediaBrowser__background {
+  width: 100% !important;
+  height: 100% !important;
+  max-height: 2160px !important;
+  max-width: 3840px !important;
+  background: url(https://drive.google.com/uc?export=download&id=1M61A8WKgfznbBIWIDgTZWeTNGO09UhQg) !important; }
+
+/* OPACITY FOR MEDIABROWSER TOP BAR */
+.mediaBrowser__title {
+  background-color: rgba(255, 255, 255, 0.25) !important; }
+
+/* HIDE ICONS FROM TILES*/
+.gridItemComponent__icon {
+  display: none !important; }
+
+/* BACKGROUND THUMBNAIL FOR SPECIFIC TILE */
+#ember816 {
+  background: url(https://drive.google.com/uc?export=download&id=13UXg6QWD4FFhVS_3EiVmMEnRJZsVSDHP) !important;
+  background-size: cover !important; }
+
+.gridComponent__item img {
+  display: none !important; }
+
+/* FIRST CHILD OF GRIDCOMPONENT == TILE 1 */
+/* FIRST CHILD OF GRIDCOMPONENT == TILE 2 */
+/* FIRST GRID COMPONENT */
+.gridComponent__item:nth-of-type(1) {
+  position: absolute !important;
+  top: 200px !important;
+  left: 120px !important;
+  background: url(https://drive.google.com/uc?export=download&id=13UXg6QWD4FFhVS_3EiVmMEnRJZsVSDHP) !important; }
+
+/* SECOND GRID COMPONENT */
+.gridComponent__item:nth-of-type(2) {
+  position: absolute !important;
+  top: 200px !important;
+  left: 580px !important;
+  background: url(https://drive.google.com/uc?export=download&id=12qroo1XkvPqkudB5R8OKtI6Q5NY7p-pI) !important; }
+
+/* THRID GRID COMPONENT */
+.gridComponent__item:nth-of-type(3) {
+  position: absolute !important;
+  top: 600px !important;
+  left: 120px !important;
+  background: url(https://drive.google.com/uc?export=download&id=13UXg6QWD4FFhVS_3EiVmMEnRJZsVSDHP) !important; }
+
+/* FOURTH GRID COMPONENT */
+.gridComponent__item:nth-of-type(4) {
+  position: absolute !important;
+  top: 600px !important;
+  left: 580px !important;
+  background: url(https://drive.google.com/uc?export=download&id=12qroo1XkvPqkudB5R8OKtI6Q5NY7p-pI) !important; }
+
+/* CLOSE BUTTON */
+.btn .fullscreenComponent__control--close {
+  position: absolute !important;
+  right: 50px !important;
+  top: 50px !important;
+  width: 80px !important;
+  height: 80px !important; }
+
+.__grid-component {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 3840px !important;
+  max-height: 2160px !important; }
