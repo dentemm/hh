@@ -4,16 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "compile:css": "node-sass --include-path scss scss/main.scss build/css/main.css"
+    "compile:stadleuven": "node-sass --include-path scss/stadleuven scss/stadleuven/main.scss build/css/stadleuven/styles.css",
+    "compile:imec": "node-sass --include-path scss/imec scss/imec/main.scss build/css/imec/styles.css"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "css-loader": "^0.28.9",
-    "extract-text-webpack-plugin": "^3.0.2",
-    "node-sass": "^4.7.2",
-    "sass-loader": "^6.0.6",
-    "webpack": "^3.11.0"
+    "node-sass": "^4.7.2"
   }
 }
